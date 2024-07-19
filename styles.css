@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: auto;
+    height: 100px;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(30, 38%, 92%);
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 530px;
+    height: 400px;
+    border: 1px solid hsl(0, 0%, 100%);
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 2px  hsl(30, 38%, 92%);
+    overflow: hidden;
+}
+
+.perfu-img{
+    overflow: hidden;
+}
+
+img{
+    width: 250px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+
+.container-cont{
+    margin-left: 20px;
+}
+
+.title-perfu p{
+    font-size: 15px;
+    margin-top: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.name-perfu{
+    width: 220px;
+}
+
+.perfu-name{
+  font-size: 30px;
+  font-weight: bold; 
+  margin-top: 20px;
+  font-family: "Fraunces", serif;
+}
+
+.descrip-perfu{
+    width: 220px;
+}
+
+.perfu-descrip{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+
+.price{
+    display: flex;
+    font-family: "Fraunces", serif;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.discount{
+    color: hsl(228, 12%, 48%);
+}
+
+.real-price{
+    font-size: small;
+    margin: auto;
+    margin-left: 20px;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.carrito{
+    margin: auto;
+    border: 1px solid beige;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 6px;
+    width: 200px;
+    height: 35px;
+    background: hsl(158, 36%, 37%);
+    border-radius: 10px;
+}
+
+.carrito:hover{
+    background: hsl(158, 35%, 26%);
+}
+
+.carrito p{
+    color: white;
+    margin-top: 7px;
+    margin-left: 30px;
+    justify-content: center;
+    align-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    background: url('images/icon-cart.svg') no-repeat 20px ;
+}
+
+footer{
+    width: auto;
+    height: 100px;
+}
