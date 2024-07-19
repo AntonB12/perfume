@@ -122,3 +122,31 @@ footer{
     width: auto;
     height: 100px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Utiliza un ancho del 90% del viewport en pantallas más pequeñas */
+        height: auto; /* Ajusta la altura automáticamente */
+        flex-direction: column; /* Cambia a una disposición de columna */
+    }
+
+    img {
+        width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+        height: auto; /* Altura automática */
+        border-radius: 0; /* Borra el radio de la imagen */
+    }
+
+    .container-cont {
+        margin: 20px auto; /* Margen en todas partes, centrado */
+    }
+
+    .carrito {
+        width: 100%; /* El ancho es del 100% del contenedor */
+        margin-left: 0; /* Sin margen a la izquierda */
+    }
+
+    .carrito p {
+        background-position: 10px center; /* Ajusta la posición del fondo del botón en pantallas más pequeñas */
+        margin-left: 0; /* Sin margen a la izquierda */
+    }
+}
